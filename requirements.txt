@@ -1,0 +1,5 @@
+google-api-python-client==1.4.0
+httplib2==0.9.1
+mechanize==0.2.5
+python-dateutil==2.4.2
+python-gflags==2.0
