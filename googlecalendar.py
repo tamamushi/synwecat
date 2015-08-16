@@ -36,10 +36,14 @@ class GoogleCalendar:
 												singleEvents = True
 												).execute()
 		for event in events['items']:
+			print event["summary"]
+			print event["start"]["dateTime"]
+		"""
 			print "%s, %s [%s] - [%s]" % (	event['summary'],
 											event["start"]["date"],
 											event["start.dateTime"],
 											event["end.dateTime"])
+		"""
 											
 		
 
